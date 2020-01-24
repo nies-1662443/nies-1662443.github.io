@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bounty Hunter Application</title>
+	<link rel="stylesheet" type="text/css" href="jobForm.css" />
+</head>
+<body>
+
+<h1>Bounty Hunter Application - Witch</h1>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post"> ... </form>
+
+	<fieldset>
+		<legend>Description</legend>
+		<div class="field">
+			<label>
+				<p>
+					We are currently looking for a witch to join our bounty hunter team.
+				</p> 
+				<p>
+					Our team now has top swordman, archer and werwolf. We are looking for a magician who can also act as a doctor. 
+				</p>
+				<p>
+					Come join us on exciting adventure over the Kingdom with high reward monthly!
+				</p>
+			</label> 
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Create Account</legend>
+		<div class="field">
+			<label>Witch License Number:</label> 
+			<input type="text" name="license number">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>First Name:</label> 
+			<input type="text" name="firstname">
+		</div>
+		<div class="field">
+			<label>Last Name:</label> 
+			<input type="text" name="lastname">
+		</div>
+		<div class="field">
+			<label>Witch League:</label> 
+			<select name="witchRank">
+				<option value="" selected="true">Choose Your League</option>
+				<option value="N">North</option>
+				<option value="S">South</option>
+				<option value="W">West</option>
+				<option value="E">East</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>We welcome witches from all leagues!</label> 
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>SkillSet</legend>
+		<div class="field">
+			<label>Are you willing to travel around the Kingdom?</label> 
+			<input type="radio" name="can travel" value="yes">Yes
+			<input type="radio" name="cannot travel" value="no">No
+		</div>
+		<div class="field">
+			<label>What types of magic do you practcie? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="healing">Healing</li>
+				<li><input type="checkbox" name="position_ft" value="water">Water</li>
+				<li><input type="checkbox" name="position_sl" value="fire">Fire</li>
+				<li><input type="checkbox" name="position_tp" value="enchant">Enchant</li>
+				<li><input type="checkbox" name="position_tp" value="physical">Physical</li>
+				<li><input type="checkbox" name="position_tp" value="plant/animal">Plant/Animal control</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>Seasons available (check all that apply) </label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="spring">Spring</li>
+				<li><input type="checkbox" name="position_ft" value="summer">Summer</li>
+				<li><input type="checkbox" name="position_sl" value="autumn">Autumn</li>
+				<li><input type="checkbox" name="position_tp" value="winter">Winter</li>
+			</ul>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Past Experience</legend>
+		<div class="field">
+			<label>Describe a past magic battle you have.(if any)</label><br>
+			<textarea name="past battle" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Why do you want to be bounty hunter?</label><br>
+			<textarea name="why" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Apply">
+
+</form>
+</body>
+</html>

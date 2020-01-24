@@ -1,0 +1,27 @@
+body{
+	background-color: burlywood;
+}
+
+h1{
+	background-color: cornsilk;
+	width: 700px;
+	font-family: "courier";
+	font-weight: bold;
+	border: dotted 2px black;
+	text-align: center;
+}
+
+legend{
+	font-family: "courier";
+	font-weight: bold;
+}
+
+form{
+	font-family: "courier";
+}
+
+fieldset{
+	background-color: cornsilk;
+	border: solid 1px black;
+	margin-bottom: 10px;
+}
